@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bild1" >
+
+    <ToggleButton
+        android:id="@+id/buttonTon"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textOff="@string/ton_aus"
+        android:textOn="@string/ton_an" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonUeberdasSpiel"
+        android:layout_marginBottom="10dp"
+        android:text="@string/einstellungen"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/buttonMusik"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/buttonTon"
+        android:layout_below="@+id/buttonTon"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textOff="@string/musik_aus"
+        android:textOn="@string/musik_an" />
+
+    <ToggleButton
+        android:id="@+id/wetterdienst"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/buttonMusik"
+        android:layout_below="@+id/buttonMusik"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textOff="@string/forecast"
+        android:textOn="@string/wetter" />
+
+    <Button
+        android:id="@+id/buttonSpielZuruecksetzen"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/buttonMusik"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/spielZuruecksetzen"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonSprache"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:layout_above="@+id/buttonTon"
+        android:layout_alignLeft="@+id/buttonTon"
+        android:layout_marginBottom="10dp"
+        android:text="@string/sprache"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonUeberdasSpiel"
+        android:layout_width="280dip"
+        android:layout_height="50dip"
+        android:layout_above="@+id/buttonSprache"
+        android:layout_alignLeft="@+id/buttonSprache"
+        android:layout_marginBottom="10dp"
+        android:text="@string/ueberDasSpiel"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="80dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/buttonMusik"
+        android:layout_toRightOf="@id/wetterdienst"
+        android:text="@string/help"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

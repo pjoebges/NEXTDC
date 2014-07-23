@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="herzlich_willkommen">Welcome to your weather game app!</string>
+    <string name="hinweis1">Please choose an action:</string>
+    <string name="start">Start</string>
+    <string name="falsche_Zuordnung">Wrong assignment!</string>
+    <string name="beenden">Exit</string>
+    <string name="highscore">Highscore</string>
+    <string name="schwierigkeit">Please select difficulty level</string>
+    <string name="leicht">easy</string>
+    <string name="mittel">middle</string>
+    <string name="schwer">hard</string>
+    <string name="spiel">The game begins. Assign the correct temperatures to the cities:</string>
+    <string name="einstellungen">Settings</string>
+    <string name="levels">Select a level:</string>
+    <string name="level_beendet">Level finished - Congratulations!</string>
+    <string name="level_durchgespielt">You finished all levels. Restarting by level 1.</string>
+    <string name="level_naechstes">Next level</string>
+    <string name="ton_an">Sounds are on</string>
+    <string name="ton_aus">Sounds are off</string>
+    <string name="sprache">Language</string>
+    <string name="musik_an">Music is on</string>
+    <string name="musik_aus">Music is off</string>
+    <string name="ueberDasSpiel">About the game</string>
+    <string name="spielZuruecksetzen">Reset game</string>
+    <string name="spielZurueckgesetzt">Game was reseted</string>
+    <string name="about_game_string">This game is a study project of Helena Most, Sabrina Schorb, Philipp Jöbges and Matthias Both</string>
+    <string name="ok">OK</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="level4">Level 4</string>
+    <string name="level5">Level 5</string>
+    <string name="level6">Level 6</string>
+    <string name="level7">Level 7</string>
+    <string name="level8">Level 8</string>
+    <string name="level9">Level 9</string>
+    <string name="wetter">Wetter.com</string>
+    <string name="abbrechen">Cancel</string>
+    <string name="forecast">Forecast.io</string>
+    <string name="help">\?</string>
+    <string name="help_message_1">Boston:</string>
+    <string name="help_message_2">Melbourne:</string>
+    <string name="help_message_3">Neu-Delhi:</string>
+    <string name="help_message_4">Pjöngjang:</string>
+    <string name="help_title">Comparison of Weather data\nCity: wetter.com / forecast.io</string>
+    <string name="wetterdienst">Weather Service</string>
+    <string name="anleitung">Manual</string>
+    <string name="anleitungHaupttext">The aim of the game is to assign the cities displayed to the correct temperatures. The assignment is done via drag and drop. The faster the cities are assigned, the more stars are obtained for a level. The displayed temperatures are current values, so the temperatures can vary in the levels depending on the different daytimes.</string>
+    <string name="lade_Wetterdaten">Loading weather data</string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bild1"
+    android:layout_height="match_parent" >
+  
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/levels"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+    
+  <Button
+        android:id="@+id/levelButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/levelButton2"
+        android:layout_marginTop="140dp"
+        android:text="@string/level1"
+        android:textColor="#FFFFFF" />
+  
+  <Button
+        android:id="@+id/levelButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/levelButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/level2" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/levelButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/levelButton2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/levelButton2"
+        android:text="@string/level3" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/levelButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/levelButton4"
+        android:layout_alignBottom="@+id/levelButton4"
+        android:layout_alignLeft="@+id/levelButton2"
+        android:layout_marginTop="16dp"
+        android:text="@string/level5" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/levelButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/levelButton5"
+        android:layout_alignLeft="@+id/levelButton3"
+        android:layout_marginTop="16dp"
+        android:text="@string/level6" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/levelButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/levelButton7"
+        android:layout_alignLeft="@+id/levelButton5"
+        android:layout_marginTop="16dp"
+        android:text="@string/level8"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/levelButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/levelButton8"
+        android:layout_alignBottom="@+id/levelButton8"
+        android:layout_alignLeft="@+id/levelButton6"
+        android:layout_marginTop="16dp"
+        android:text="@string/level9" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/levelButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/levelButton1"
+        android:layout_below="@+id/levelButton1"
+        android:layout_marginTop="46dp"
+        android:text="@string/level4" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/levelButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/levelButton4"
+        android:layout_below="@+id/levelButton4"
+        android:layout_marginTop="44dp"
+        android:text="@string/level7" 
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
